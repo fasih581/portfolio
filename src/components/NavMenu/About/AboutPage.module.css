@@ -1,0 +1,185 @@
+.Container {
+    max-width: 1250px;
+    margin: 0 auto;
+}
+
+.AboutTittle {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    margin: 60px 0 50px 0;
+    align-items: center;
+}
+
+.AboutTittle h2 {
+    color: #42446E;
+    font-family: Poppins;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+}
+
+.AboutTittle p {
+    color: #42446E;
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    width: 560px;
+    text-align: center;
+}
+
+.EduExpTittle {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    justify-content: center;
+    margin: 60px 0 50px 0;
+    align-items: center;
+}
+
+.EduExpTittle h2 {
+    color: #42446E;
+    font-family: Poppins;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+}
+
+.EduExpBox {
+    width: 500px;
+    border-bottom: 2px solid #EBEAED;
+    padding: 10px 0;
+}
+
+.EduExpBox h5 {
+    color: #666;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 1px;
+}
+
+.EduExpDisBox {
+    display: flex;
+    justify-content: space-between;
+}
+
+.EduExpDisBox p {
+    margin: 0;
+    color: #A7A7A7;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 1px;
+}
+
+.EduExpDis {
+    margin: 0;
+    display: flex;
+    gap: 30px;
+}
+
+@media only screen and (max-width: 1300px) {
+
+    .Container {
+        max-width: 1050px !important;
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (max-width: 1080px) {
+
+    .Container {
+        max-width: 900px !important;  
+        margin: 0 auto;
+    }
+}
+
+
+@media only screen and (max-width: 780px) {
+
+    .Container {
+        max-width: 650px !important;
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (max-width: 670px) {
+
+    .Container {
+        max-width: 550px !important;
+        margin: 0 auto;
+    }
+}
+
+
+
+
+@media only screen and (max-width: 560px) {
+
+    .Container {
+        max-width: 450px !important;
+        margin: 0 auto;
+    }
+
+    .AboutTittle p {
+        width: 350px;
+    }
+
+    .EduExpDisBox p {
+        font-size: 10px;
+    }
+
+    .EduExpDis {
+        margin: 0;
+        display: flex;
+        gap: 2px;
+        flex-direction: column;
+    }
+
+    .EduExpBox {
+        width: 300px;
+    }
+}
+
+@media only screen and (max-width: 460px) {
+
+    .Container {
+        max-width: 400px !important;
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+
+    .Container {
+        max-width: 380px !important;
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (max-width: 380px) {
+
+    .Container {
+        max-width: 300px !important;
+        margin: 0 auto;
+    }
+
+    .AboutTittle p {
+        width: 290px;
+    }
+
+    .AboutTittle p {
+        font-size: 12px;
+    }
+
+}

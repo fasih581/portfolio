@@ -1,0 +1,158 @@
+.Container {
+    max-width: 1250px;
+    margin: 0 auto;
+}
+
+.contactTittle {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    margin: 60px 0 50px 0;
+    align-items: center;
+}
+
+.contactTittle h2 {
+    color: #42446E;
+    font-family: Poppins;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+}
+
+.contactTittle p{
+    color: #42446E;
+}
+
+.formContaier{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 600px;
+    justify-content: center;
+    margin-bottom: 150px;
+}
+
+.InputBox{
+    width: 100%;
+}
+
+.InputBox h5{
+    margin: 0;
+    color: #42446E;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.InputBox  Textarea{
+    width: 100% !important;
+} 
+
+.errorText {
+    color: red;
+    font-size: 0.9rem;
+  }
+
+  .successText{
+    color: green;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+  }
+
+@media only screen and (max-width: 1300px) {
+
+    .Container {
+        max-width: 1050px !important;
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (max-width: 1080px) {
+
+    .Container {
+        max-width: 900px !important;
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (max-width: 780px) {
+
+    .Container {
+        max-width: 650px !important;
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (max-width: 670px) {
+
+    .Container {
+        max-width: 550px !important;
+        margin: 0 auto;
+    }
+
+    .formContaier {
+        width: 500px;
+        margin-bottom: 60px;
+    }
+}
+
+@media only screen and (max-width: 560px) {
+
+    .Container {
+        max-width: 450px !important;
+        margin: 0 auto;
+    }
+
+    .formContaier {
+        width: 400px;
+        margin-bottom: 60px;
+    }
+}
+
+
+@media only screen and (max-width: 460px) {
+
+    .Container {
+        max-width: 400px !important;
+        margin: 0 auto;
+    }
+
+    .formContaier {
+        width: 380px;
+        margin-bottom: 60px;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+
+    .Container {
+        max-width: 380px !important;
+        margin: 0 auto;
+    }
+
+    .formContaier {
+        width: 350px;
+        margin-bottom: 60px;
+    }
+}
+
+@media only screen and (max-width: 380px) {
+
+    .Container {
+        max-width: 300px !important;
+        margin: 0 auto;
+    }
+
+    .formContaier {
+        width: 290px;
+        margin-bottom: 60px;
+    }
+
+}

@@ -1,0 +1,72 @@
+.Container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 75px;
+    gap: 50px;
+}
+
+.techStackTittle {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.techStackTittle h2 {
+    color: #42446E;
+    font-family: Poppins;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+}
+
+.techStackTittle p {
+    color: #42446E;
+}
+
+.techStackIcon {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    column-gap: 90px;
+    row-gap: 35px;
+}
+
+.Img {
+    width: 50px;
+}
+
+img {
+    width: 100%;
+}
+
+@media only screen and (max-width: 460px) {
+
+    .Container {
+        gap: 30px;
+    }
+
+    .techStackIcon {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 40px;
+        row-gap: 30px;
+    }
+}
+
+@media only screen and (max-width: 380px) {
+
+    .techStackTittle p {
+        color: #42446E;
+        font-size: 14px;
+    }
+
+    .techStackIcon {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 40px;
+        row-gap: 30px;
+    }
+}
