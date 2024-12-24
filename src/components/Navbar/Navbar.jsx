@@ -64,12 +64,10 @@ function Navbar() {
                         <li onClick={projectNev} className={location.pathname === '/Project' ? Css.pathNavLi : Css.navLI}>Projects</li>
                         <li onClick={contactNev} className={location.pathname === '/Contact' ? Css.pathNavLi : Css.navLI}>Contact</li>
                     </ul>
-                    <div className={Css.Box}>
-                        <div className={Css.BoxIcon}>
+                    <div className={Css.Box_Modal}>
                             <FaGithub className={Css.Icon} />
                             <FaLinkedin className={Css.Icon} />
                             <FaInstagramSquare className={Css.Icon} />
-                        </div>
                     </div>
                 </Drawer>
             </div>
